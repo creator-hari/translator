@@ -1,5 +1,5 @@
 # Translator
 
 ## To run the app:
-`npm install`
+`npm install`\n
 `npm run start`
