@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const APIKey = 'AIzaSyBRCk_ltxJ3NbemepP7L1h-HjudXi7e-ME';
+const APIKey = process.env.GCT;
 const googleTranslate = require('google-translate')(APIKey);
 const connectDB = require('./config/config')
 const Lang = require('./models/lang')
