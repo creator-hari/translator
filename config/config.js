@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-const mongoDBURl = 'mongodb+srv://mernApp-123:mernApp-123@mernapp.xpjas.mongodb.net/translate?retryWrites=true&w=majority';
+const mongoDBURl = process.env.DBURL;
 
 const connectDB = async () => {
     try {
